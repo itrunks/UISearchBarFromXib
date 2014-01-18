@@ -19,6 +19,8 @@
 		C7A4D7E7188A59FA00CD68E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A4D7CF188A59F900CD68E3 /* UIKit.framework */; };
 		C7A4D7EF188A59FA00CD68E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7A4D7ED188A59FA00CD68E3 /* InfoPlist.strings */; };
 		C7A4D7F1188A59FA00CD68E3 /* UISearchBarFromXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A4D7F0188A59FA00CD68E3 /* UISearchBarFromXibTests.m */; };
+		C7A4D802188A5BB200CD68E3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A4D800188A5BB200CD68E3 /* TableViewController.m */; };
+		C7A4D803188A5BB200CD68E3 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A4D801188A5BB200CD68E3 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C7A4D7EC188A59FA00CD68E3 /* UISearchBarFromXibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISearchBarFromXibTests-Info.plist"; sourceTree = "<group>"; };
 		C7A4D7EE188A59FA00CD68E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7A4D7F0188A59FA00CD68E3 /* UISearchBarFromXibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchBarFromXibTests.m; sourceTree = "<group>"; };
+		C7A4D7FF188A5BB200CD68E3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C7A4D800188A5BB200CD68E3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C7A4D801188A5BB200CD68E3 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				C7A4D7DA188A59F900CD68E3 /* AppDelegate.h */,
 				C7A4D7DB188A59F900CD68E3 /* AppDelegate.m */,
+				C7A4D7FF188A5BB200CD68E3 /* TableViewController.h */,
+				C7A4D800188A5BB200CD68E3 /* TableViewController.m */,
+				C7A4D801188A5BB200CD68E3 /* TableViewController.xib */,
 				C7A4D7DD188A59F900CD68E3 /* Images.xcassets */,
 				C7A4D7D2188A59F900CD68E3 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			files = (
 				C7A4D7D6188A59F900CD68E3 /* InfoPlist.strings in Resources */,
 				C7A4D7DE188A59F900CD68E3 /* Images.xcassets in Resources */,
+				C7A4D803188A5BB200CD68E3 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				C7A4D7DC188A59F900CD68E3 /* AppDelegate.m in Sources */,
 				C7A4D7D8188A59F900CD68E3 /* main.m in Sources */,
+				C7A4D802188A5BB200CD68E3 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UISearchBarFromXib/UISearchBarFromXib-Prefix.pch";
 				INFOPLIST_FILE = "UISearchBarFromXib/UISearchBarFromXib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UISearchBarFromXib/UISearchBarFromXib-Prefix.pch";
 				INFOPLIST_FILE = "UISearchBarFromXib/UISearchBarFromXib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  UISearchBarFromXib
 //
-//  Created by Fobess on 1/18/14.
-//  Copyright (c) 2014 Fobess. All rights reserved.
+//  Created by Raja on 1/18/14.
+//  Copyright (c) 2014 Raja. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+   
+    self.window.rootViewController=[[TableViewController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }
